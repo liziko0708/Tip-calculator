@@ -1,0 +1,109 @@
+@media (min-width: 20em) {
+  body {
+    overflow-x: hidden;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .splitter-svg {
+    width: 8.7rem;
+    margin: 5rem auto 0 auto;
+  }
+  .container {
+    padding: 3.2rem;
+  }
+  .calculator-div {
+    width: 100vw;
+    border-radius: 25px 25px 0 0;
+    margin-top: 5rem;
+  }
+  .input-container {
+    margin-top: 0.6rem;
+    margin-bottom: 3.2rem;
+    width: 22rem;
+    margin: 0 auto;
+  }
+  .precents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 1.6rem;
+    margin-bottom: 3.2rem;
+  }
+  .number-of-persons {
+    margin-bottom: 0.6rem;
+  }
+  .persons {
+    margin-bottom: 3.2rem;
+  }
+  .tip-precent,
+  .custom-tip-input {
+    width: 12rem;
+    padding: 0.6rem 0;
+  }
+  .results-container {
+    padding: 2.4rem;
+  }
+  .tip-result,
+  .total-result {
+    gap: 8.7rem;
+    justify-content: space-between;
+  }
+  .tip-result {
+    margin-bottom: 2.5rem;
+  }
+  .price-container {
+    font-size: 32px;
+  }
+  .reset {
+    margin-top: 3.3rem;
+    padding: 0.9rem 3.3rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .input-container {
+    width: 90%;
+  }
+  .precents {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (min-width: 50em) {
+  .calculator-div {
+    border-radius: 25px;
+  }
+  .container {
+    display: flex;
+    gap: 3.2rem;
+  }
+  .tip-precent,
+  .custom-tip-input {
+    width: 11rem;
+    padding: 0.6rem 0;
+  }
+  .results {
+    width: 100%;
+  }
+  .results-container {
+    padding: 4rem;
+  }
+  .tip-result {
+    margin-bottom: 5.2rem;
+  }
+  .reset {
+    margin-top: 13.4rem;
+  }
+}
+@media (min-width: 59em) {
+  .calculator-div {
+    max-width: 92rem;
+  }
+  .price-container {
+    font-size: 4.8rem;
+  }
+}
